@@ -1,0 +1,24 @@
+Negative indexing
+- Python arrays & list items can be accessed with positive or negative numbers (also known as index).
+- For instance our array/list is of size n, then for positive index 0 is the first index, 1 second, last index will be n-1. For negative index, -n is the first index, -(n-1) second, last negative index will be – 1.
+- A negative index accesses elements from the end of the list counting backwards.
+
+
+Packing and UnPacking
+- Consider a situation when we don’t know how many arguments need to be passed to a python function, we can use Packing to pack all arguments in a tuple and then use it according to our convenience.
+- Consider a function which takes 3 arguments and we have a list of size 3 with us that has all arguments for the function. If we simply pass list to the function, the call doesn’t work.
+
+
+Mutable and Immutable
+- These are of type list, dict, set . Custom classes are generally mutable.
+- These are of in-built types like int, float, bool, string, unicode, tuple. In simple words, an immutable object can’t be changed after it is created.
+
+
+Append and Extend
+- Adds its argument as a single element to the end of a list. The length of the list increases by one.
+- Iterates over its argument and adding each element to the list and extending the list. The length of the list increases by number of elements in it’s argument.
+
+
+Pickling and Unpickling
+- The process whereby a Python object hierarchy is converted into a byte stream.
+- The inverse operation, whereby a byte stream is converted back into an object hierarchy.

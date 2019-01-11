@@ -1,0 +1,2 @@
+Split Function
+- If no separator is defined when you call upon the function, whitespace will be used by default. In simpler terms, the separator is a defined character that will be placed between each variable.
