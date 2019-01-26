@@ -1,0 +1,5 @@
+Range
+- Range keeps the entire list of numbers in memory.
+
+xrange
+- xrange returns an iterator and only keeps one number in memory at a time. 
